@@ -1,19 +1,20 @@
 <template>
   <div>
-    <router-view />
-    <member-show :pageData="pageData"></member-show>
-    <router-view />
+    <nav-bar></nav-bar>
+    <!-- <member-show :pageData="pageData"></member-show> -->
   </div>
 </template>
 
 <script>
 import { reactive, onMounted } from "vue";
+import NavBar from "../components/NavBar.vue";
+
 import apiHelper from "../utils/apiHelper";
-import MemberShow from "../views/MemberShow.vue";
+// import MemberShow from "../views/MemberShow.vue";
 
 export default {
   name: "Home",
-  components: { MemberShow },
+  components: { NavBar },
   setup() {
     // 所有被召喚的150人
     const memberData = reactive({

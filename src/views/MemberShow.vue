@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav-bar></nav-bar>
+    
     <div class="container">
       <div class="title">前端開發 人力仲介</div>
       <div class="people-wrap">
@@ -43,12 +43,12 @@
 </template>
 
 <script>
-import NavBar from "../components/NavBar.vue";
+// import NavBar from "../components/NavBar.vue";
 
-export default {
-  name: "MemberShow",
-  components: { NavBar },
-  props: { pageData: Object },
-  setup() {},
-};
+// export default {
+//   name: "MemberShow",
+//   components: { NavBar },
+//   props: { pageData: Object },
+//   setup() {},
+// };
 </script>
