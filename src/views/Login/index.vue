@@ -18,7 +18,7 @@
 <script>
 import { reactive, onMounted } from "vue";
 import { useRouter } from "vue-router";
-import apiHelper from "../utils/apiHelper";
+import apiHelper from "../../utils/apiHelper";
 
 export default {
   name: "Login",

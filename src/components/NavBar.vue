@@ -6,11 +6,11 @@
     <div class="the-router-link">
       <router-link to="/" class="link-items">首頁</router-link>
       <span>|</span>
-      <router-link to="admin" class="link-items">會員列表</router-link>
+      <router-link to="/admin" class="link-items">會員列表</router-link>
       <span>|</span>
-      <router-link to="customer" class="link-items">自選清單</router-link>
+      <router-link to="/customer" class="link-items">自選清單</router-link>
     </div>
-    <router-link to="login" class="logoin">登入</router-link>
+    <router-link to="/login" class="logoin">登入</router-link>
   </div>
 </template>
 <script>
