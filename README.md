@@ -1,4 +1,5 @@
-# member-management
+# demo-member-management
+
 
 ## Project setup
 ```
